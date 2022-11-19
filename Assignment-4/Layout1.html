@@ -1,0 +1,52 @@
+<!DOCTYPE html> 
+<html lang="en"> 
+    <head>
+    <meta charset="UTF-8"> 
+    <title>Create your first flex layout</title> 
+
+    <style>
+
+    body{ display: flex; flex-flow: row wrap;}
+    div {background: silver; width: 150px;height: 20px; padding: 5px; text-align: center; border: 1px solid black;}
+       
+    nav { display:flex}
+    #nav1 {justify-content: flex-start}
+    #nav1 {background: silver; width: 200px; height: 50px; margin: 0 400px 15px 0; padding: 5px; border: 1px solid black;}
+    #nav1 {justify-items: center;}
+    #nav2 {justify-content: flex-end}
+    #nav {justify-content: flex-start}
+
+
+    #nav3 {background: silver; width: 82%; height: 500px; margin: 0 15px 15px 0; padding: 5px; border: 1px solid black; }
+    #nav4 {background: silver; width: 40%; height: 200px; margin: 0 15px 15px 0; padding: 5px; border: 1px solid black; }
+    #nav5 {background: silver; width: 40%; height: 200px; margin: 0 15px 15px 0; padding: 5px; border: 1px solid black; }
+    
+    #nav6 {background: silver; width: 82%; height: 20px; margin: 0 15px 15px 0; padding: 5px;text-align: center; border: 1px solid black;  }
+
+    </style>
+     </head> 
+     <body>
+    <nav id="nav1">
+        Company Logo
+    </nav>
+    <nav id="nav2">
+        <div>Item 1</div> 
+        <div>Item 2</div>
+        <div>Item 3</div>
+        <div>Item 4</div>
+    </nav>
+    <nav id="nav3">
+        Featrured Product Image
+    </nav>
+    <nav id="nav4">
+        Product 1
+    </nav>
+    <nav id="nav5">
+        Product 2
+    </nav>
+    <nav id="nav6">
+        Copyright Notice
+    </nav>
+
+    </body>
+</html>

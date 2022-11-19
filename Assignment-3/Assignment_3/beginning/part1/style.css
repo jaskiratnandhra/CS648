@@ -1,0 +1,87 @@
+body {
+  background-color: #EDEDED;
+  font-size: 1em;
+  line-height: 2em;
+  font-family: Arial, Helvetica, sans-serif ;
+}
+h3{
+    color: blue ;
+    border-bottom: 1px solid #929CA4 ;
+}
+#one::first-letter {
+    font-size: 30px;
+    
+}
+
+.solution{
+    color: #CC1C0D ;
+    font-weight: bold;
+
+
+}
+#testimonial1 {
+    font-style: italic;
+    margin: 50px;
+}
+#testimonial2 {
+    font-style: italic;
+    margin: 50px;
+}
+
+a {
+    /* Specify non-transparent defaults to certain properties,
+       allowing them to be styled with the :visited state */
+    background-color: white;
+    border: 1px solid white;
+  }
+  
+  a:visited {
+    background-color: yellow;
+    border-color: hotpink;
+    color: hotpink;
+  }
+  a:active{
+    background-color: yellow;
+    border-color: blue;
+    color: blue;
+  }
+
+  a[href^="http"]:link {
+    background-color: yellow;
+    border-color: hotpink;
+    color: green;
+}
+
+a[href^="http"]:hover {
+    border-color: hotpink;
+    color: hotpink;
+    
+}
+
+a[href^="http"]:visited {
+    color: green; 
+}
+
+a[href^="http"]:active {
+    color: yellow; text-decoration: wavy;
+}
+
+
+
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+  }
+ul {
+    list-style: none;
+}
+
+li:nth-child(1) {
+    color: blue;
+}
+
+li:last-child {
+    color: red;
+}
